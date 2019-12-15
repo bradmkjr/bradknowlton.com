@@ -26,7 +26,7 @@ margin-top: 20px;
 clear: both;
 }
 
-div.social-wrapper {
+div.icon-wrapper {
 	background: rgba(255,255,255,.8);
 	height: 24px;
 	padding: 4px 4px;
@@ -34,18 +34,18 @@ div.social-wrapper {
 	box-shadow: 0px 2px 5px rgba(0,0,0,.85);
 }
 
-ul.social{
+ul.icons{
 width: 261px;
 margin: 0;
 float: right;
 }
 
-ul.social li{
+ul.icons li{
 float: right;
 margin-left: 5px;
 }
 
-ul.social li a i{
+ul.icons li a i{
 width: 24px;
 height: 24px;
 line-height: 24px;
@@ -56,7 +56,7 @@ background: #6d6e71;
 border-radius: 50%;
 }
 
-ul.social li a i:hover{
+ul.icons li a i:hover{
 /* color: rgba(255,255,255,.8); */
 /* background: #000; */
 /* border-radius: 50%; */
@@ -64,7 +64,7 @@ ul.social li a i:hover{
 
 /*
 
-ul.social li a .circle-icon {
+ul.icons li a .circle-icon {
 background: #6d6e71;
 width: 150px;
 height: 150px;
@@ -83,58 +83,58 @@ transition: all .5s ease;
 
 /*
 
-ul.social li.facebook{
-background: url(/images/social.png) left top no-repeat;
+ul.icons li.facebook{
+background: url(/images/icons.png) left top no-repeat;
 margin-right: 10px;
 }
 
-ul.social li.twitter{
-background: url(/images/social.png) -34px top no-repeat;
+ul.icons li.twitter{
+background: url(/images/icons.png) -34px top no-repeat;
 margin-right: 10px;
 }
 
-ul.social li:hover.facebook{
-background: url(/images/social.png) left -24px no-repeat;
+ul.icons li:hover.facebook{
+background: url(/images/icons.png) left -24px no-repeat;
 }
 
-ul.social li:hover.twitter{
-background: url(/images/social.png) -34px -24px no-repeat;
+ul.icons li:hover.twitter{
+background: url(/images/icons.png) -34px -24px no-repeat;
 }
 
 
-ul.social li.paypal{
+ul.icons li.paypal{
 background: url(/images/paypal.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
-ul.social li:hover.paypal{
+ul.icons li:hover.paypal{
 background: url(/images/paypal.png) right -24px no-repeat;
 }
 
-ul.social li.wordpress{
-background: url(/images/social.png) right 0px no-repeat;
+ul.icons li.wordpress{
+background: url(/images/icons.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
-ul.social li:hover.wordpress{
-background: url(/images/social.png) right -24px no-repeat;
+ul.icons li:hover.wordpress{
+background: url(/images/icons.png) right -24px no-repeat;
 }
 
-ul.social li.ubuntu{
+ul.icons li.ubuntu{
 background: url(/images/ubuntu.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
-ul.social li:hover.ubuntu{
+ul.icons li:hover.ubuntu{
 background: url(/images/ubuntu.png) right -24px no-repeat;
 }
 
 
-ul.social li.downloads{
+ul.icons li.downloads{
 background: url(/images/downloads.png) right 0px no-repeat;
 }
 
-ul.social li:hover.downloads{
+ul.icons li:hover.downloads{
 background: url(/images/downloads.png) right -24px no-repeat;
 }
 */
@@ -296,7 +296,7 @@ h3.quote {
 
 
 @media only screen and (max-width: 620px) {
-		div.social-wrapper {
+		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
 				
@@ -331,7 +331,7 @@ h3.quote {
 }
 
 @media only screen and (max-width: 480px) {
-		div.social-wrapper {
+		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
 				
@@ -411,7 +411,7 @@ h3.quote {
 
 
 @media only screen and (max-width: 320px) {
-		div.social-wrapper {
+		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
 				

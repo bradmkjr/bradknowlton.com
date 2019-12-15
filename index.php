@@ -14,13 +14,13 @@
 <!-- Open Graph data -->
 <meta property="og:title" content="Bradford Moses Knowlton Jr. Missoula, Montana"/>
 <meta property="og:type" content="article"/>
-<meta property="og:url" content="http://www.bradknowlton.com/"/>
-<meta property="og:image" content="http://www.bradknowlton.com/images/bradknowlton.jpg"/>
+<meta property="og:url" content="https://www.bradknowlton.com/"/>
+<meta property="og:image" content="https://www.bradknowlton.com/images/bradknowlton.jpg"/>
 <meta property="og:description" content="Profile of Bradford M. Knowlton Jr. currently programming PHP in Missoula, Montana"/> 
 
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
 
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="/tools/style.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="/tools/jquery.min.js"></script> 
 <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -28,16 +28,16 @@
 
 </head>
 <body>
-	<div class="social-wrapper">
-		<ul class="social">
+	<div class="icon-wrapper">
+		<ul class="icons">
 			<li class="bitcoin"><a href="bitcoin:195jHGYxZyYxxHAYgLVGY2H9DEoGMHGQTx" target="_blank"><i class="fa fa-btc fa-fw"></i></a></li>
 			<li class="twitter"><a href="https://twitter.com/bradmkjr" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
 			<li class="paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=brad%40ucanbonline%2enet&amp;lc=US&amp;item_name=Bradford%20Knowlton&amp;item_number=bradknowlton%2ecom&amp;no_note=1&amp;no_shipping=1¤cy_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank"><i class="fa fa-paypal fa-fw"></i></a></li>
 			<li class="wordpress"><a href="http://profiles.wordpress.org/bradmkjr/" target="_blank"><i class="fa fa-wordpress fa-fw"></i></a></li>
 			<li class="ubuntu"><a href="http://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
 			<li class="downloads"><a href="/images/wallpaper-original.jpg" target="_blank" title="Download The Best Super Beetle Wallpaper"><i class="fa fa-download fa-fw"></i></a></li>
-			<li><a href="https://plus.google.com/u/0/112285836444683382716/?rel=author"><i class="fa fa-google-plus fa-fw"></i></a></li>
-			<li><a href="http://nsfwpassword.com/"><i class="fa fa-lock fa-fw"></i></a></li>
+			<!-- <li><a href="https://plus.google.com/u/0/112285836444683382716/?rel=author"><i class="fa fa-google-plus fa-fw"></i></a></li> -->
+			<!-- <li><a href="http://nsfwpassword.com/"><i class="fa fa-lock fa-fw"></i></a></li> -->
 			<li><a href="http://php75n2hzj4ucyq4.onion/"><i class="fa fa-code fa-fw"></i></a></li>
 		</ul>
 		
