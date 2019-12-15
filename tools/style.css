@@ -1,0 +1,445 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+body{
+margin:0;
+padding:0;
+background: #898989 url(/web/20160330114319im_/http://bradknowlton.com/images/vw-background.jpg) top center no-repeat;
+background-size: cover;
+font-family: Helvetica Neue, Helvetica, Arial;
+color: #444444;
+}
+
+#content_wrapper{
+	width: 1028px;
+	margin: 0 auto;
+}
+
+.content{
+width: 1028px;
+float: left;
+margin-top: 20px;
+}
+
+.clear{
+clear: both;
+}
+
+div.social-wrapper {
+	background: rgba(255,255,255,.8);
+	height: 24px;
+	padding: 4px 4px;
+	margin-bottom: 16px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.85);
+}
+
+ul.social{
+width: 261px;
+margin: 0;
+float: right;
+}
+
+ul.social li{
+float: right;
+margin-left: 5px;
+}
+
+ul.social li a i{
+width: 24px;
+height: 24px;
+line-height: 24px;
+/* font-size: 25px; */
+/* float: left; */
+color: rgba(255,255,255,.8);
+background: #6d6e71;
+border-radius: 50%;
+}
+
+ul.social li a i:hover{
+/* color: rgba(255,255,255,.8); */
+/* background: #000; */
+/* border-radius: 50%; */
+}
+
+/*
+
+ul.social li a .circle-icon {
+background: #6d6e71;
+width: 150px;
+height: 150px;
+line-height: 150px;
+background-color: #333;
+border-radius: 100%;
+text-align: center;
+vertical-align: middle;
+margin: 0 auto 50px auto;
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+}
+*/
+
+/*
+
+ul.social li.facebook{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) left top no-repeat;
+margin-right: 10px;
+}
+
+ul.social li.twitter{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) -34px top no-repeat;
+margin-right: 10px;
+}
+
+ul.social li:hover.facebook{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) left -24px no-repeat;
+}
+
+ul.social li:hover.twitter{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) -34px -24px no-repeat;
+}
+
+
+ul.social li.paypal{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/paypal.png) right 0px no-repeat;
+margin-right: 10px;
+}
+
+ul.social li:hover.paypal{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/paypal.png) right -24px no-repeat;
+}
+
+ul.social li.wordpress{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) right 0px no-repeat;
+margin-right: 10px;
+}
+
+ul.social li:hover.wordpress{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) right -24px no-repeat;
+}
+
+ul.social li.ubuntu{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/ubuntu.png) right 0px no-repeat;
+margin-right: 10px;
+}
+
+ul.social li:hover.ubuntu{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/ubuntu.png) right -24px no-repeat;
+}
+
+
+ul.social li.downloads{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/downloads.png) right 0px no-repeat;
+}
+
+ul.social li:hover.downloads{
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/downloads.png) right -24px no-repeat;
+}
+*/
+
+
+p.made_in{
+color: #444444;
+font-size: 21px;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+h1{
+text-align: center;
+font-size: 60px;
+color: #444;
+font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #d8d8d8;
+	text-shadow: 1px 1px 6px #666;
+	letter-spacing: 3px;
+}
+
+
+.good_news{
+width: 301px;
+height: 112px;
+margin: 20px auto 0 auto;
+color: #333;
+background: url(/web/20160330114319im_/http://bradknowlton.com/images/things.png) left top no-repeat;
+padding-top: 28px;
+}
+
+h2{
+font-size: 21px;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 6px;
+}
+
+.good_news p{
+font-size: 18px;
+text-align: center;
+}
+
+
+#downloads {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+	border-top: 1px solid #000;
+}
+
+div.downloads-inner {
+	max-width: 800px;
+	margin: 10px auto;
+}
+
+
+div.downloads-inner a {
+	margin-right: 50px;
+}
+
+div.downloads-inner a img:hover {
+	opacity: .8;
+}
+
+h3.quote {
+	font-family: 'Cookie', cursive;
+	color: #FFF;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: normal;
+}
+
+@media only screen and (max-width: 1024px) {
+				
+		#content_wrapper{
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		.content{
+		width: 100%;
+		float: none;
+		margin-top: 6px;
+		}
+		
+		h1{
+			font-size: 44px;
+		}
+		
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+				
+		#content_wrapper{
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		.content{
+		width: 100%;
+		float: none;
+		margin-top: 6px;
+		}
+		
+		h1{
+			font-size: 36px;
+		}
+		
+		div.downloads-inner a {
+			margin-right: 15px;
+		}
+
+}
+
+@media only screen and (max-width: 720px) {
+		div.downloads-inner a {
+			margin-right: 25px;
+		}
+		
+		div.downloads-inner a img#macbook {
+			width: auto;
+			height: 133px;
+		}
+		
+		div.downloads-inner a img#ipad {
+			width: auto;
+			height: 127px;
+		}
+		
+		div.downloads-inner a img#iphone-vertical {
+			width: auto;
+			height: 74px;
+		}
+		
+		div.downloads-inner a img#iphone-horizontal {
+			width: auto;
+			height: 40px;
+		}
+		
+		h3.quote {
+			margin-top: 400px;
+			padding: 2%;
+		}
+}
+
+
+@media only screen and (max-width: 620px) {
+		div.social-wrapper {
+			margin-bottom: 12px;
+		}
+				
+		#content_wrapper{
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		.content{
+		width: 100%;
+		float: none;
+		margin-top: 6px;
+		}
+
+		h1{
+			font-size: 22px;
+		}
+		
+		p.made_in{
+			font-size: 14px;
+			letter-spacing: 2px;
+		}
+
+		div.downloads-inner a {
+			margin-right: 5px;
+		}
+		
+		h3.quote {
+			margin-top: 350px;
+			padding: 2%;
+		}
+}
+
+@media only screen and (max-width: 480px) {
+		div.social-wrapper {
+			margin-bottom: 12px;
+		}
+				
+		#content_wrapper{
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		.content{
+		width: 100%;
+		float: none;
+		margin-top: 6px;
+		}
+
+		h1{
+			font-size: 22px;
+		}
+		
+		p.made_in{
+			font-size: 14px;
+			letter-spacing: 2px;
+		}
+
+		h3.quote {
+			margin-top: 300px;
+			padding: 2%;
+		}
+}
+
+
+@media only screen and (max-width: 480px) {
+		
+		h1{
+			font-size: 16px;
+		}
+		
+		p.made_in{
+			font-size: 14px;
+			letter-spacing: 2px;
+			color: #121212;
+		}
+		
+		div.downloads-inner a {
+			margin-right: 20px;
+		}
+		
+		div.downloads-inner a img#macbook {
+			width: auto;
+			height: 90px;
+		}
+		
+		div.downloads-inner a img#ipad {
+			width: auto;
+			height: 86px;
+		}
+		
+		div.downloads-inner a img#iphone-vertical {
+			width: auto;
+			height: 44px;
+		}
+		
+		div.downloads-inner a img#iphone-horizontal {
+			width: auto;
+			height: 22px;
+		}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+		
+		div.downloads-inner a {
+			margin-right: 5px;
+		}
+		
+}
+
+
+@media only screen and (max-width: 320px) {
+		div.social-wrapper {
+			margin-bottom: 12px;
+		}
+				
+		#content_wrapper{
+			width: 100%;
+			margin: 0 auto;
+		}
+		
+		.content{
+		width: 100%;
+		float: none;
+		margin-top: 6px;
+		}
+
+		h1{
+			font-size: 16px;
+			margin-top: 150px;
+			letter-spacing: 0px;
+		}
+		
+		p.made_in{
+			font-size: 14px;
+			letter-spacing: 2px;
+		}
+		
+		h3.quote {
+			margin-top: 0px;
+			padding: 2%;
+		}
+
+}
