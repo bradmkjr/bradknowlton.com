@@ -25,6 +25,16 @@
 <script type="text/javascript" src="/tools/jquery.min.js"></script> 
 <meta name="viewport" content="width=device-width, user-scalable=no">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-494375-77"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-494375-77');
+</script>
+
 
 </head>
 <body>
