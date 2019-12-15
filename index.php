@@ -21,8 +21,8 @@
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="http://bradknowlton.com/tools/style.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="http://bradknowlton.com/tools/jquery.min.js"></script> 
+<link href="/tools/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/tools/jquery.min.js"></script> 
 <meta name="viewport" content="width=device-width, user-scalable=no">
 
 
@@ -35,7 +35,7 @@
 			<li class="paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=brad%40ucanbonline%2enet&amp;lc=US&amp;item_name=Bradford%20Knowlton&amp;item_number=bradknowlton%2ecom&amp;no_note=1&amp;no_shipping=1¤cy_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank"><i class="fa fa-paypal fa-fw"></i></a></li>
 			<li class="wordpress"><a href="http://profiles.wordpress.org/bradmkjr/" target="_blank"><i class="fa fa-wordpress fa-fw"></i></a></li>
 			<li class="ubuntu"><a href="http://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
-			<li class="downloads"><a href="http://bradknowlton.com/images/wallpaper-original.jpg" target="_blank" title="Download The Best Super Beetle Wallpaper"><i class="fa fa-download fa-fw"></i></a></li>
+			<li class="downloads"><a href="/images/wallpaper-original.jpg" target="_blank" title="Download The Best Super Beetle Wallpaper"><i class="fa fa-download fa-fw"></i></a></li>
 			<li><a href="https://plus.google.com/u/0/112285836444683382716/?rel=author"><i class="fa fa-google-plus fa-fw"></i></a></li>
 			<li><a href="http://nsfwpassword.com/"><i class="fa fa-lock fa-fw"></i></a></li>
 			<li><a href="http://php75n2hzj4ucyq4.onion/"><i class="fa fa-code fa-fw"></i></a></li>
@@ -56,10 +56,10 @@
 </div>
 <div id="downloads">
 <div class="downloads-inner">
-	<a href="http://bradknowlton.com/images/wallpaper-original.jpg" target="_blank"><img id="macbook" src="http://bradknowlton.com/images/macbook.png" alt="macbook with sample vw super beetle wallpaper"/></a>
-	<a href="http://bradknowlton.com/images/wallpaper-ipad.jpg" target="_blank"><img id="ipad" src="http://bradknowlton.com/images/ipad.png" alt="ipad with sample vw super beetle wallpaper"/></a>
-	<a href="http://bradknowlton.com/images/wallpaper-iphone-vertical.jpg" target="_blank"><img id="iphone-vertical" src="http://bradknowlton.com/images/iphone-vertical.png" alt="iphone vertical with sample vw super beetle wallpaper"/></a>
-	<a href="http://bradknowlton.com/images/wallpaper-iphone-horizontal.jpg" target="_blank"><img id="iphone-horizontal" src="http://bradknowlton.com/images/iphone-horizontal.png" alt="iphone horizontal with sample vw super beetle wallpaper"/></a>
+	<a href="/images/wallpaper-original.jpg" target="_blank"><img id="macbook" src="/images/macbook.png" alt="macbook with sample vw super beetle wallpaper"/></a>
+	<a href="/images/wallpaper-ipad.jpg" target="_blank"><img id="ipad" src="/images/ipad.png" alt="ipad with sample vw super beetle wallpaper"/></a>
+	<a href="/images/wallpaper-iphone-vertical.jpg" target="_blank"><img id="iphone-vertical" src="/images/iphone-vertical.png" alt="iphone vertical with sample vw super beetle wallpaper"/></a>
+	<a href="/images/wallpaper-iphone-horizontal.jpg" target="_blank"><img id="iphone-horizontal" src="/images/iphone-horizontal.png" alt="iphone horizontal with sample vw super beetle wallpaper"/></a>
 </div>
 </div>
 <script>

@@ -5,7 +5,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{
 margin:0;
 padding:0;
-background: #898989 url(/web/20160330114319im_/http://bradknowlton.com/images/vw-background.jpg) top center no-repeat;
+background: #898989 url(/images/vw-background.jpg) top center no-repeat;
 background-size: cover;
 font-family: Helvetica Neue, Helvetica, Arial;
 color: #444444;
@@ -84,58 +84,58 @@ transition: all .5s ease;
 /*
 
 ul.social li.facebook{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) left top no-repeat;
+background: url(/images/social.png) left top no-repeat;
 margin-right: 10px;
 }
 
 ul.social li.twitter{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) -34px top no-repeat;
+background: url(/images/social.png) -34px top no-repeat;
 margin-right: 10px;
 }
 
 ul.social li:hover.facebook{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) left -24px no-repeat;
+background: url(/images/social.png) left -24px no-repeat;
 }
 
 ul.social li:hover.twitter{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) -34px -24px no-repeat;
+background: url(/images/social.png) -34px -24px no-repeat;
 }
 
 
 ul.social li.paypal{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/paypal.png) right 0px no-repeat;
+background: url(/images/paypal.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
 ul.social li:hover.paypal{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/paypal.png) right -24px no-repeat;
+background: url(/images/paypal.png) right -24px no-repeat;
 }
 
 ul.social li.wordpress{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) right 0px no-repeat;
+background: url(/images/social.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
 ul.social li:hover.wordpress{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/social.png) right -24px no-repeat;
+background: url(/images/social.png) right -24px no-repeat;
 }
 
 ul.social li.ubuntu{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/ubuntu.png) right 0px no-repeat;
+background: url(/images/ubuntu.png) right 0px no-repeat;
 margin-right: 10px;
 }
 
 ul.social li:hover.ubuntu{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/ubuntu.png) right -24px no-repeat;
+background: url(/images/ubuntu.png) right -24px no-repeat;
 }
 
 
 ul.social li.downloads{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/downloads.png) right 0px no-repeat;
+background: url(/images/downloads.png) right 0px no-repeat;
 }
 
 ul.social li:hover.downloads{
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/downloads.png) right -24px no-repeat;
+background: url(/images/downloads.png) right -24px no-repeat;
 }
 */
 
@@ -169,7 +169,7 @@ width: 301px;
 height: 112px;
 margin: 20px auto 0 auto;
 color: #333;
-background: url(/web/20160330114319im_/http://bradknowlton.com/images/things.png) left top no-repeat;
+background: url(/images/things.png) left top no-repeat;
 padding-top: 28px;
 }
 
