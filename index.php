@@ -10,7 +10,7 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 }
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head prefix="og: http://ogp.me/ns#">
 
 <base href="https://bradknowlton.com/" target="_blank">
 
@@ -23,11 +23,20 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 <meta name="twitter:card" value="summary">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Bradford Moses Knowlton Jr. Missoula, Montana"/>
-<meta property="og:type" content="article"/>
+<meta property="og:title" content="Bradford M. Knowlton Jr. Missoula, Montana"/>
+<meta property="og:site_name" content="Bradford M. Knowlton Jr. Missoula, Montana">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://bradknowlton.com/"/>
 <meta property="og:image" content="https://bradknowlton.com/images/wallpaper-iphone-horizontal.jpg"/>
+<meta property="og:image:secure_url" content="https://bradknowlton.com/images/wallpaper-iphone-horizontal.jpg">
 <meta property="og:description" content="Profile of Bradford M. Knowlton Jr. currently available for web programming in Missoula, Montana"/>
+<meta property="profile:first_name" content="Bradford">
+<meta property="profile:last_name" content="Knowlton">
+<meta property="profile:gender" content="male">
+<meta property="profile:username" content="bradmkjr">
+
+<link rel="canonical" href="https://bradknowlton.com/">
 
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
 
