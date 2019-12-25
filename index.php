@@ -1,10 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $location);
+    exit;
+}
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<title>Bradford Moses Knowlton Jr. &mdash; Web Programmer &mdash; Missoula, Montana</title>
+<title>Bradford M. Knowlton Jr. &mdash; Web Programmer &mdash; Missoula, Montana</title>
 <meta name="description" content="Profile of Bradford M. Knowlton Jr. Missoula, Montana"/>
 
 <!-- Twitter Card data -->
@@ -15,11 +22,11 @@
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="https://www.bradknowlton.com/"/>
 <meta property="og:image" content="https://www.bradknowlton.com/images/bradknowlton.jpg"/>
-<meta property="og:description" content="Profile of Bradford M. Knowlton Jr. currently programming PHP in Missoula, Montana"/>
+<meta property="og:description" content="Profile of Bradford M. Knowlton Jr. currently available for web programming in Missoula, Montana"/>
 
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
 
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href="/tools/style.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="/tools/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -50,7 +57,7 @@
 				</a>
 			</li>
 			<li class="wordpress">
-				<a href="http://profiles.wordpress.org/bradmkjr/" target="_blank">
+				<a href="https://profiles.wordpress.org/bradmkjr/" target="_blank">
 					<i class="fa fa-wordpress fa-fw"></i>
 				</a>
 			</li>
@@ -75,7 +82,7 @@
 				</a>
 			</li>
 			<li class="ubuntu">
-				<a href="http://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank">
+				<a href="https://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank">
 					<i class="fab fa-ubuntu fa-fw"></i>
 				</a>
 			</li>
