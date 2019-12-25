@@ -51,27 +51,17 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 		<ul class="icons">
 			<li class="bitcoin">
 				<a href="bitcoin:195jHGYxZyYxxHAYgLVGY2H9DEoGMHGQTx" target="_blank">
-					<i class="fa fa-btc fa-fw"></i>
+					<i class="fab fa-btc fa-fw">
 				</a>
 			</li>
 			<li class="twitter">
 				<a href="https://twitter.com/bradmkjr" target="_blank">
-					<i class="fa fa-twitter fa-fw"></i>
+					<i class="fab fa-twitter fa-fw">
 				</a>
 			</li>
 			<li class="wordpress">
 				<a href="https://profiles.wordpress.org/bradmkjr/" target="_blank">
-					<i class="fa fa-wordpress fa-fw"></i>
-				</a>
-			</li>
-			<li class="github">
-				<a href="https://github.com/bradmkjr" target="_blank">
-					<i class="fab fa-github fa-fw"></i>
-				</a>
-			</li>
-			<li class="bitbucket">
-				<a href="https://bitbucket.org/bradmkjr/" target="_blank">
-					<i class="fab fa-bitbucket fa-fw"></i>
+					<i class="fab fa-wordpress fa-fw"></i>
 				</a>
 			</li>
 			<li class="npm">
@@ -84,14 +74,24 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 					<i class="fab fa-php fa-fw"></i>
 				</a>
 			</li>
-			<li class="ubuntu">
+			<li class="bitbucket">
+				<a href="https://bitbucket.org/bradmkjr/" target="_blank">
+					<i class="fab fa-bitbucket fa-fw"></i>
+				</a>
+			</li>
+			<li class="github">
+				<a href="https://github.com/bradmkjr" target="_blank">
+					<i class="fab fa-github fa-fw"></i>
+				</a>
+			</li>
+			<!-- <li class="ubuntu">
 				<a href="https://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank">
 					<i class="fab fa-ubuntu fa-fw"></i>
 				</a>
-			</li>
+			</li> -->
 			<li class="downloads">
 				<a href="/images/wallpaper-original.jpg" target="_blank" title="Download The Best Super Beetle Wallpaper">
-					<i class="fa fa-download fa-fw"></i>
+					<i class="fas fa-download fa-fw"></i>
 				</a>
 			</li>
 			<!-- <li><a href="https://plus.google.com/u/0/112285836444683382716/?rel=author"><i class="fa fa-google-plus fa-fw"></i></a></li> -->
