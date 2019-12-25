@@ -5,7 +5,7 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
    $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
     $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     header('HTTP/1.1 301 Moved Permanently');
-    header('Location: ' . $location);
+    header('Location: ' . str_replace( 'www.', '', $location ) );
     exit;
 }
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -23,8 +23,8 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 <!-- Open Graph data -->
 <meta property="og:title" content="Bradford Moses Knowlton Jr. Missoula, Montana"/>
 <meta property="og:type" content="article"/>
-<meta property="og:url" content="https://www.bradknowlton.com/"/>
-<meta property="og:image" content="https://www.bradknowlton.com/images/bradknowlton.jpg"/>
+<meta property="og:url" content="https://bradknowlton.com/"/>
+<meta property="og:image" content="https://bradknowlton.com/images/bradknowlton.jpg"/>
 <meta property="og:description" content="Profile of Bradford M. Knowlton Jr. currently available for web programming in Missoula, Montana"/>
 
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
