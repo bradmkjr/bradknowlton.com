@@ -51,12 +51,12 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 		<ul class="icons">
 			<li class="bitcoin">
 				<a href="bitcoin:195jHGYxZyYxxHAYgLVGY2H9DEoGMHGQTx" target="_blank">
-					<i class="fab fa-btc fa-fw">
+					<i class="fab fa-btc fa-fw"></i>
 				</a>
 			</li>
 			<li class="twitter">
 				<a href="https://twitter.com/bradmkjr" target="_blank">
-					<i class="fab fa-twitter fa-fw">
+					<i class="fab fa-twitter fa-fw"></i>
 				</a>
 			</li>
 			<li class="wordpress">
