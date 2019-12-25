@@ -66,22 +66,22 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 			</li>
 			<li class="github">
 				<a href="https://github.com/bradmkjr" target="_blank">
-					<i class="fab fa-github"></i>
+					<i class="fab fa-github fa-fw"></i>
 				</a>
 			</li>
 			<li class="bitbucket">
 				<a href="https://bitbucket.org/bradmkjr/" target="_blank">
-					<i class="fab fa-bitbucket"></i>
+					<i class="fab fa-bitbucket fa-fw"></i>
 				</a>
 			</li>
 			<li class="npm">
 				<a href="https://www.npmjs.com/~bradmkjr" target="_blank">
-					<i class="fab fa-npm"></i>
+					<i class="fab fa-npm fa-fw"></i>
 				</a>
 			</li>
 			<li class="packagist">
 				<a href="https://packagist.org/packages/bradmkjr/" target="_blank">
-					<i class="fab fa-php"></i>
+					<i class="fab fa-php fa-fw"></i>
 				</a>
 			</li>
 			<li class="ubuntu">
