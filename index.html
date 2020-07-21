@@ -1,14 +1,4 @@
-<?php
-if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
-   $_SERVER['HTTPS'] == 1) ||
-   isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
-   $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
-    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    header('HTTP/1.1 301 Moved Permanently');
-    header('Location: ' . str_replace( 'www.', '', $location ) );
-    exit;
-}
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head prefix="og: http://ogp.me/ns#">
 
@@ -37,6 +27,7 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 <meta property="profile:username" content="bradmkjr">
 
 <link rel="canonical" href="https://bradknowlton.com/">
+<meta http-equiv="onion-location" content="http://php75n2hzj4ucyq4.onion" />
 
 <meta name="webstatsdomain.org_meta" content="bradknowlton.com"/>
 
@@ -92,6 +83,11 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 					<i class="fab fa-wordpress fa-fw"></i>
 				</a>
 			</li>
+			<li class="ubuntu">
+				<a href="https://ubuntuforums.org/member.php?u=508951" target="_blank">
+					<i class="fab fa-ubuntu fa-fw"></i>
+				</a>
+			</li>
 			<li class="npm">
 				<a href="https://www.npmjs.com/~bradmkjr" target="_blank">
 					<i class="fab fa-npm fa-fw"></i>
@@ -112,11 +108,11 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 					<i class="fab fa-github fa-fw"></i>
 				</a>
 			</li>
-			<!-- <li class="ubuntu">
-				<a href="https://ubuntuforums.org/member.php?u=508951&amp;tab=aboutme#aboutme" target="_blank">
-					<i class="fab fa-ubuntu fa-fw"></i>
+			<li class="linkedin">
+				<a href="https://www.linkedin.com/in/bradford-knowlton/" target="_blank">
+					<i class="fab fa-linkedin fa-fw"></i>
 				</a>
-			</li> -->
+			</li>
 			<li class="downloads">
 				<a href="/images/wallpaper-original.jpg" target="_blank" title="Download The Best Super Beetle Wallpaper">
 					<i class="fas fa-download fa-fw"></i>
@@ -133,7 +129,9 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 		<div class="clear"></div>
 		<p class="made_in">Bradford M. Knowlton Jr.</p>
 		<h1><a href="http://php75n2hzj4ucyq4.onion/" target="_blank" title="Tor HTTP Service is hosted on Raspberry Pi, please be patience while loading.">http://php75n2hzj4ucyq4.onion/</a></h1>
-		<h3 class="quote">You were the highest paid, least reliable employee I've ever had.<div style="text-align: right; font-size: .75em;">&mdash; Gabriel Silverman</div></h3>
+		<!-- <h3 class="quote">You were the highest paid, least reliable employee I've ever had.<div style="text-align: right; font-size: .75em;">&mdash; Gabriel Silverman</div></h3> -->
+		<h3 class="quote">Awesome!<div style="text-align: right; font-size: .75em;">&mdash; Dusty Birge</div></h3>
+
 	</div>
 </div>
 <div id="downloads">

@@ -35,7 +35,7 @@ div.icon-wrapper {
 }
 
 ul.icons{
-width: 261px;
+width: 319px;
 margin: 0;
 float: right;
 }
@@ -220,43 +220,43 @@ h3.quote {
 }
 
 @media only screen and (max-width: 1024px) {
-				
+
 		#content_wrapper{
 			width: 100%;
 			margin: 0 auto;
 		}
-		
+
 		.content{
 		width: 100%;
 		float: none;
 		margin-top: 6px;
 		}
-		
+
 		h1{
 			font-size: 44px;
 		}
-		
+
 
 }
 
 
 @media only screen and (max-width: 1024px) {
-				
+
 		#content_wrapper{
 			width: 100%;
 			margin: 0 auto;
 		}
-		
+
 		.content{
 		width: 100%;
 		float: none;
 		margin-top: 6px;
 		}
-		
+
 		h1{
 			font-size: 36px;
 		}
-		
+
 		div.downloads-inner a {
 			margin-right: 15px;
 		}
@@ -267,27 +267,27 @@ h3.quote {
 		div.downloads-inner a {
 			margin-right: 25px;
 		}
-		
+
 		div.downloads-inner a img#macbook {
 			width: auto;
 			height: 133px;
 		}
-		
+
 		div.downloads-inner a img#ipad {
 			width: auto;
 			height: 127px;
 		}
-		
+
 		div.downloads-inner a img#iphone-vertical {
 			width: auto;
 			height: 74px;
 		}
-		
+
 		div.downloads-inner a img#iphone-horizontal {
 			width: auto;
 			height: 40px;
 		}
-		
+
 		h3.quote {
 			margin-top: 400px;
 			padding: 2%;
@@ -299,12 +299,12 @@ h3.quote {
 		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
-				
+
 		#content_wrapper{
 			width: 100%;
 			margin: 0 auto;
 		}
-		
+
 		.content{
 		width: 100%;
 		float: none;
@@ -314,7 +314,7 @@ h3.quote {
 		h1{
 			font-size: 22px;
 		}
-		
+
 		p.made_in{
 			font-size: 14px;
 			letter-spacing: 2px;
@@ -323,7 +323,7 @@ h3.quote {
 		div.downloads-inner a {
 			margin-right: 5px;
 		}
-		
+
 		h3.quote {
 			margin-top: 350px;
 			padding: 2%;
@@ -334,12 +334,12 @@ h3.quote {
 		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
-				
+
 		#content_wrapper{
 			width: 100%;
 			margin: 0 auto;
 		}
-		
+
 		.content{
 		width: 100%;
 		float: none;
@@ -349,7 +349,7 @@ h3.quote {
 		h1{
 			font-size: 22px;
 		}
-		
+
 		p.made_in{
 			font-size: 14px;
 			letter-spacing: 2px;
@@ -363,36 +363,36 @@ h3.quote {
 
 
 @media only screen and (max-width: 480px) {
-		
+
 		h1{
 			font-size: 16px;
 		}
-		
+
 		p.made_in{
 			font-size: 14px;
 			letter-spacing: 2px;
 			color: #121212;
 		}
-		
+
 		div.downloads-inner a {
 			margin-right: 20px;
 		}
-		
+
 		div.downloads-inner a img#macbook {
 			width: auto;
 			height: 90px;
 		}
-		
+
 		div.downloads-inner a img#ipad {
 			width: auto;
 			height: 86px;
 		}
-		
+
 		div.downloads-inner a img#iphone-vertical {
 			width: auto;
 			height: 44px;
 		}
-		
+
 		div.downloads-inner a img#iphone-horizontal {
 			width: auto;
 			height: 22px;
@@ -402,11 +402,11 @@ h3.quote {
 }
 
 @media only screen and (max-width: 360px) {
-		
+
 		div.downloads-inner a {
 			margin-right: 5px;
 		}
-		
+
 }
 
 
@@ -414,12 +414,12 @@ h3.quote {
 		div.icon-wrapper {
 			margin-bottom: 12px;
 		}
-				
+
 		#content_wrapper{
 			width: 100%;
 			margin: 0 auto;
 		}
-		
+
 		.content{
 		width: 100%;
 		float: none;
@@ -431,12 +431,12 @@ h3.quote {
 			margin-top: 150px;
 			letter-spacing: 0px;
 		}
-		
+
 		p.made_in{
 			font-size: 14px;
 			letter-spacing: 2px;
 		}
-		
+
 		h3.quote {
 			margin-top: 0px;
 			padding: 2%;
