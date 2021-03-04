@@ -2,6 +2,38 @@
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?nynntp');
+  src:  url('/fonts/icomoon.eot?nynntp#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?nynntp') format('truetype'),
+    url('/fonts/icomoon.woff?nynntp') format('woff'),
+    url('/fonts/icomoon.svg?nynntp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Velpeo:before {
+  content: "\e700";
+}
+
+
 body{
 margin:0;
 padding:0;
@@ -35,7 +67,7 @@ div.icon-wrapper {
 }
 
 ul.icons{
-width: 319px;
+width: 350px;
 margin: 0;
 float: right;
 }
