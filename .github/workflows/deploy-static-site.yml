@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Create dist folder
-        run: mkdir dist && cp -R src dist
+        run: mkdir dist && cp -R src/. dist
       - name: Update DATE_LOCAL
         uses: richardrigutins/replace-in-files@v2
         with:
