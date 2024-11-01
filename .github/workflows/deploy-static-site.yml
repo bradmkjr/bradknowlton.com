@@ -33,11 +33,31 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Create dist folder
+        run: mkdir dist && cp -R src dist/.
+      - name: Update DATE_LOCAL
+        uses: richardrigutins/replace-in-files@v2
+        with:
+          files: './dist/index.html'
+          search-text: '<!--#echo var="DATE_LOCAL" -->'
+          replacement-text: '${{ github.run_number }}'
+      - name: Update LAST_MODIFIED
+        uses: richardrigutins/replace-in-files@v2
+        with:
+          files: './dist/index.html'
+          search-text: '<!--#echo var="LAST_MODIFIED" -->'
+          replacement-text: '${{ github.sha }}'
+      - name: Update SERVER_ADMIN
+        uses: richardrigutins/replace-in-files@v2
+        with:
+          files: './dist/index.html'
+          search-text: '<!--#echo var="SERVER_ADMIN" -->'
+          replacement-text: '${{ github.actor_id }}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './src'
+          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
