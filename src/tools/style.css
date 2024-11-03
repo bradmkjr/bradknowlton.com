@@ -253,6 +253,12 @@ h3.quote {
 	font-weight: normal;
 }
 
+#certs {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
 @media only screen and (max-width: 1024px) {
 
 		#content_wrapper{
@@ -325,6 +331,10 @@ h3.quote {
 		h3.quote {
 			margin-top: 400px;
 			padding: 2%;
+		}
+
+		#certs {
+			display: none;
 		}
 }
 
